@@ -8,7 +8,7 @@ interface CardStudiesProps {
 
 const CardStudies = ({ institution, occupation, date, title, description }: CardStudiesProps) => {
     return (
-        <div className="flex w-full">
+        <div className="flex w-full p-4">
             <div className="flex flex-col w-2/5 gap-4">
                 <h3>{institution}</h3>
                 <div className="flex gap-5 items-center">

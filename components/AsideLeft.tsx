@@ -7,17 +7,7 @@ import { AiOutlineBlock } from "react-icons/ai";
 
 const AsideLeft = () => {
     return (
-        <aside className="h-screen fixed top-0 left-0 bg-white w-3/12 flex flex-col items-center px-8 py-6 max-h-screen">
-            {/* <section className="flex flex-col w-4/5 items-center shrink">
-                <div className="flex flex-col relative">
-                    <Image src="/images/foto-cuadrada-jhonatan.jpg" width={150} height={150} alt="Foto Jhonatan" className="rounded-full" />
-                    <span className="bg-lime-500 h-[16px] w-[16px] rounded-full absolute right-3 bottom-4" />
-                </div>
-                <div className="flex flex-col w-full items-center">
-                    <span className="text-center">Jhonatan Tamayo</span>
-                    <span className="text-center">Estudiante Ing. Sistemas</span>
-                </div>
-            </section> */}
+        <aside className="h-screen fixed top-0 left-0 bg-white w-3/12 flex flex-col items-center max-h-screen px-8 py-6 gap-1.5">
             <section className="flex flex-col items-center gap-1">
                 <div className="flex flex-col aspect-square relative items-center"> {/*w-3/6 para img*/}
                     {/* <img src="/images/foto-cuadrada-jhonatan.jpg" alt="Foto Jhonatan" className="w-full aspect-square rounded-full" /> */}
@@ -53,6 +43,7 @@ const AsideLeft = () => {
                 <h3>Habilidades personales</h3>
                 <ListItem Icon={AiOutlineBlock} text="Trabajo en equipo" />
                 <ListItem Icon={AiOutlineBlock} text="Comunicación asertiva" />
+                <ListItem Icon={AiOutlineBlock} text="Responsabilidad" />
             </section>
             <LineDivider />
         </aside>
