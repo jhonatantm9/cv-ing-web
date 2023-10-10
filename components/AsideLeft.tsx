@@ -9,8 +9,7 @@ const AsideLeft = () => {
     return (
         <aside className="h-screen fixed top-0 left-0 bg-white w-3/12 flex flex-col items-center max-h-screen px-8 py-6 gap-1.5">
             <section className="flex flex-col items-center gap-1">
-                <div className="flex flex-col aspect-square relative items-center"> {/*w-3/6 para img*/}
-                    {/* <img src="/images/foto-cuadrada-jhonatan.jpg" alt="Foto Jhonatan" className="w-full aspect-square rounded-full" /> */}
+                <div className="flex flex-col aspect-square relative items-center">
                     <Image src="/images/foto-cuadrada-jhonatan.jpg" width={140} height={140} alt="Foto Jhonatan" className="rounded-full" />
                     <span className="bg-lime-500 w-[11.5%] aspect-square rounded-full absolute right-3 bottom-3" />
                 </div>

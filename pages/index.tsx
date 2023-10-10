@@ -4,7 +4,7 @@ import { AsideRight } from '@/components/AsideRight'
 
 const Home = () => {
   return (
-    <div className="flex h-full max-w-screen bg-gray-500 gap-5">
+    <div className="flex h-full max-w-screen bg-page-bg gap-5">
       <AsideLeft />
       <MainContent />
       <AsideRight />
